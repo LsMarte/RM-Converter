@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Easily convert YouTube videos to MP3 or MP4 files and download them for free. There is no registration or software needed.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM-YouTube/MP3/MP4 Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="/" class="logo-text">RM Converter</a>
+        <nav class="main-nav">
+            <a href="/">Home</a>
+            <a href="/faq">FAQ</a>
+            <a href="/add-on">Add-on</a>
+        </nav>
+    </header>
+
+    <main class="content-wrapper">
+        <section class="converter-section card">
+            <form autocomplete="off" method="post">
+                <div class="form-group">
+                    <label for="v">Insert a valid video URL</label>
+                    <input id="v" type="text" name="v" placeholder="youtube.com/watch?v=j0u7ub3-ur1" required autofocus>
+                </div>
+                <div class="form-actions">
+                    <div id="f" class="format-switcher" role="group" aria-label="Choose format">
+                        <button id="selected" type="button" class="format-btn">MP3</button>
+                        <button type="button" class="format-btn">MP4</button>
+                    </div>
+                    <button type="submit" class="submit-btn">Convert</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="info-section card">
+            <h1>YouTube to MP3 & MP4 Converter</h1>
+            <p>With our service, you can easily convert YouTube videos to MP3 (audio) or MP4 (video) files and download them for free. This service works for computers, tablets, and mobile devices.</p>
+            <p>Videos are always converted in the highest available quality. Please note that we can only convert videos up to a length of 90 minutes.</p>
+            
+            <h2>How to Convert a YouTube Video</h2>
+            <ol>
+                <li>Search for a video on youtube.com and copy the video URL. Paste the URL into our converter above.</li>
+                <li>Choose a format, either MP3 or MP4. If no choice is made, the video will be converted to MP3 by default.</li>
+                <li>Click the "Convert" button to begin. Once completed, you can download the file.</li>
+            </ol>
+            <p>Our service is free and does not require any software or registration. By using our service you are accepting our <a href="/terms-of-use-1/">Terms of Use</a>.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="/contact-1/">Contact</a>
+            <a href="/copyright-claims-1/">Copyright Claims</a>
+            <a href="/privacy-policy-1/">Privacy Policy</a>
+            <a href="/terms-of-use-1/">ToU</a>
+        </div>
+    </footer>
+
+    <script src="auth.js" defer></script>
+    <script src="script1.js" defer></script>
+</html>
